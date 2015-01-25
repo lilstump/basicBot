@@ -2819,7 +2819,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
 
-                            API.sendChat("BOBERT SAYS FUCK NO");
+                            API.sendChat("/me BOBERT SAYS FUCK NO");
                     }
                 }
             },

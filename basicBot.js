@@ -2819,7 +2819,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.website === "string")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
+                            API.sendChat("BOBERT SAYS FUCK NO");
                     }
                 }
             },

@@ -2823,8 +2823,9 @@
                     }
                 }
             },
-           minecraftCommand: {
-                command: 'minecraft','mc'
+
+           websiteCommand: {
+                command: 'minecraft','mc',
                 rank: 'residentdj',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2836,6 +2837,7 @@
                     }
                 }
             },
+
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',

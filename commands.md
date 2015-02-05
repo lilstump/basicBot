@@ -104,5 +104,4 @@ User
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
 |!mc, !mincecraft | | links the domnian minecraft server ip |

@@ -183,7 +183,7 @@
         name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/lilstump/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "http://bit.ly/1C3OtC7",
         chatLink: "https://rawgit.com/lilstump/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,

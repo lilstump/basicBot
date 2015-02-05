@@ -2819,7 +2819,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
 
-                                  API.sendChat(subChat(basicBot.chat.website, {link:http://domnian.com}));
+                                  API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
                     }
                 }
             },

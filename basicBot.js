@@ -2823,7 +2823,7 @@
                 }
             },
             
-            websiteCommand: {
+            minecraftCommand: {
                 command: ['minecraft','mc'],
                 rank: 'residentdj',
                 type: 'exact',

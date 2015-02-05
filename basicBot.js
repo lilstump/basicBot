@@ -230,7 +230,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: null,
+            website: "Visit our website at: http://domnian.com",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -2812,13 +2812,14 @@
 
             websiteCommand: {
                 command: 'website',
-                rank: 'residentdj',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat("/me Join our website at: http://domnian.com");
+                        if (typeof basicBot.settings.website === "string")
+                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
                     }
                 }
             },

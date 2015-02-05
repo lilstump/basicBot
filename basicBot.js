@@ -2818,7 +2818,6 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.website === "string")
                             API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
                     }
                 }

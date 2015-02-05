@@ -2823,7 +2823,6 @@
                     }
                 }
             },
-    
            minecraftCommand: {
                 command: 'minecraft','mc'
                 rank: 'residentdj',
@@ -2837,7 +2836,6 @@
                     }
                 }
             },
-
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',

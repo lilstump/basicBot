@@ -2836,6 +2836,21 @@
                 }
             },
 
+            danceCommand: {
+                command: 'dance',
+                rank: 'residentdj',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat("/me http://puu.sh/d6gBU/2a5e7d6bf5.gif");
+                    }
+                }
+            }
+        }
+    },
+
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
@@ -2846,21 +2861,6 @@
                     else {
                         if (typeof basicBot.settings.youtubeLink === "string")
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
-                    }
-                }
-            }
-        }
-    },
-
-            danceCommand: {
-                command: 'dance',
-                rank: 'residentdj',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat("/me http://puu.sh/d6gBU/2a5e7d6bf5.gif");
                     }
                 }
             }

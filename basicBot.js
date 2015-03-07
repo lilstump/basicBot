@@ -2850,7 +2850,7 @@
                 }
             }
         }
-    };
+    },
 
             danceCommand: {
                 command: 'dance',

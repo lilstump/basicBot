@@ -2851,7 +2851,7 @@
             }
         }
     };
-    
+
             danceCommand: {
                 command: 'dance',
                 rank: 'residentdj',

@@ -2835,7 +2835,7 @@
                     }
                 }
             },
-
+        
             danceCommand: {
                 command: 'dance',
                 rank: 'residentdj',
@@ -2847,10 +2847,8 @@
                         API.sendChat("/me http://puu.sh/d6gBU/2a5e7d6bf5.gif");
                     }
                 }
-            }
-        }
-    },
-
+            },
+        
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',

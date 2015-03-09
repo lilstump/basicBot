@@ -38,6 +38,7 @@ Bouncer+
 |!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
 |!welcome | | toggle the welcome message on user join |
+|!ping | | pong! |
 
 Bouncer
 -------
@@ -72,6 +73,7 @@ Bouncer
 |!unban | @user | unban user |
 |!unmute | | unmute user |
 |!voteratio | @user | display the vote statistic for a user |
+|!commands | | gives a link to the commands |
 
 Resident DJ
 -----------
@@ -90,7 +92,6 @@ User
 |:------:|:---------:|:--------------------------------------:|
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
-|!commands | | gives a link to the commands |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
@@ -100,7 +101,6 @@ User
 |!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
-|!ping | | pong! |
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |

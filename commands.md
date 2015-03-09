@@ -79,7 +79,8 @@ Resident DJ
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!link | | give a link to the current song
-
+|!mc, !mincecraft | | links the domnian minecraft server ip |
+|!cookie | (@user) | give a cookie to user |
 
 
 User
@@ -90,7 +91,6 @@ User
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
 |!commands | | gives a link to the commands |
-|!cookie | (@user) | give a cookie to user |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
@@ -104,4 +104,4 @@ User
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
-|!mc, !mincecraft | | links the domnian minecraft server ip |
+

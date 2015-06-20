@@ -2810,7 +2810,7 @@
             },
 
             websiteCommand: {
-                command: 'twitch',
+                command: 'website',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2821,10 +2821,10 @@
                     }
                 }
             },
-            
+ 
             minecraftCommand: {
                 command: ['minecraft','mc'],
-                rank: 'residentdj',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2834,7 +2834,20 @@
                     }
                 }
             },
-        
+ 
+             TwitchCommand: {
+                command: 'twitch',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat("/me http://twitch.tv/weareborntorage");
+                    }
+                }
+            },
+
             danceCommand: {
                 command: 'dance',
                 rank: 'residentdj',
@@ -2846,8 +2859,8 @@
                         API.sendChat("/me http://puu.sh/d6gBU/2a5e7d6bf5.gif");
                     }
                 }
-            },
-        
+            }
+    
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',

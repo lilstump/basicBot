@@ -73,7 +73,7 @@
     "maximumafktimeset": "/me [@%%NAME%%] Maximum afk duration set to %%TIME%% minutes.",
     "afkstatusreset": "/me [@%%NAME%%] Reset the afk status of @%%USERNAME%%.",
     "inactivefor": "/me [@%%NAME%%] @%%USERNAME%% has been inactive for %%TIME%%.",
-    "autowoot": "/me We recommend PlugCubed for autowooting: http://plugcubed.net/",
+    "autowoot": "/me We recommend Radiant Community Extension for autowooting: https://chrome.google.com/webstore/detail/radiant-community-extensi/gfffnbhinkdleedlodeeodpaipoeonoa?utm_source=chrome-app-launcher-info-dialog",
     "brandambassador": "/me A Brand Ambassador is the voice of the plug.dj users. They promote events, engage the community and share the plug.dj message around the world. For more info: http://blog.plug.dj/brand-ambassadors/",
     "bouncerplusrank": "/me [@%%NAME%%] You have to be manager or up to enable Bouncer+.",
     "chatcleared": "/me [@%%NAME%%] Cleared the chat.",

@@ -2811,7 +2811,7 @@
 
             websiteCommand: {
                 command: 'website',
-                rank: 'user',
+                rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2821,20 +2821,20 @@
                     }
                 }
             },
- 
+            
             minecraftCommand: {
                 command: ['minecraft','mc'],
-                rank: 'user',
+                rank: 'residentdj',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat("/me Still working on it");
+                        API.sendChat("/me Ask the owner");
                     }
                 }
             },
- 
+        
             danceCommand: {
                 command: 'dance',
                 rank: 'residentdj',
@@ -2846,8 +2846,8 @@
                         API.sendChat("/me http://puu.sh/d6gBU/2a5e7d6bf5.gif");
                     }
                 }
-            }
-    
+            },
+        
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
